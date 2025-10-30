@@ -28,7 +28,7 @@ O processo de provisionamento com CloudFormation é um ciclo de vida que garante
 
 O diagrama abaixo, criado no Draw.io, ilustra o fluxo transacional:
 
-`![Diagrama que ilustra o fluxo de trabalho do IaC: Código, Orquestração e Recurso](/images/processo-iac.png)`
+`![Diagrama que ilustra o fluxo de trabalho do IaC: Código, Orquestração e Recurso](images/processo-iac.png)`
 
 ### 2.2. A Importância da Gestão do Ciclo de Vida
 
