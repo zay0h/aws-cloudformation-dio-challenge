@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Stack de Prática: Bucket S3 Simples para o Desafio DIO
+
+Resources:
+  StorageBucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      # A função !Sub (substituição) garante um nome de bucket único.
+      # Ele substitui ${AWS::AccountId} e ${AWS::Region} pelos valores da sua conta/região.
+      BucketName: !Sub "cf-dio-challenge-s3-${AWS::AccountId}-${AWS::Region}"
+      AccessControl: Private
+      Tags:
+        - Key: Environment
+          Value: IaC-Challenge
+        - Key: Project
+          Value: DIO_CloudFormation
+
+Outputs:
+  BucketName:
+    Description: Nome do Bucket S3 criado
+    Value: !Ref StorageBucket
