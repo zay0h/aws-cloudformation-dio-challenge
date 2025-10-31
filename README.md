@@ -1,4 +1,4 @@
-# 🚀 Desafio DIO: Infraestrutura como Código (IaC) com AWS CloudFormation
+# Desafio DIO: Infraestrutura como Código (IaC) com AWS CloudFormation
 
 
 Este projeto documenta a conclusão do desafio de IaC da DIO, focado em utilizar o **AWS CloudFormation** para provisionar recursos de infraestrutura de forma automatizada e repetível.
